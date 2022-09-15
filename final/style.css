@@ -160,6 +160,9 @@ header{
     cursor: pointer;
     
 }
+.nav-vis-btn{
+    display: none;
+}
 
 .arrow-down-1,.arrow-down-2{
     display: none;
@@ -168,17 +171,6 @@ section {
     display: none;
 }
 
-@media  only screen and (max-width:768px) {
-
-    .nav-links span .arrow-up-1,.arrow-up-2,.arrow-down-1,.arrow-down-2{
-       display:none;
-    }
-    header{
-        display: flex;
-        flex-wrap: nowrap;
-        gap:3rem;
-    }
-} 
 
 @media only screen and (max-width:640px) {
     .nav--container{
